@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Vacation Suggester</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>It's time for a vacation!</h1>
+      <p>Answer the questions below to see where you should go next.</p>
+    </div>
+    <div class="row" id="imgs">
+      <div class="col-md-3" id="beach">
+        <img src="img/TEST/beach.jpg" alt="beach">
+      </div>
+      <div class="col-md-3" id="desert">
+        <img src="img/TEST/desert.jpg" alt="desert">
+      </div>
+      <div class="col-md-3" id="rainforest">
+        <img src="img/TEST/rainforest.jpg" alt="rainforest">
+      </div>
+      <div class="col-md-3" id="city">
+        <img src="img/TEST/city.jpg" alt="city">
+      </div>
+    </div>
+    <br>
+    <form id="survey">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well">
+            <div class="form-group">
+              <label>Which activities do you enjoy the most while on vacation?</label>
+              <select class="form-control" id="activities">
+                <option value="1">Being active outdoors</option>
+                <option value="2">Relaxing on a beach or at a spa</option>
+                <option value="3">Visiting museums and landmarks</option>
+                <<option value="4">Checking out local arts and culture</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+            <div class="form-group">
+              <label>Who are you bringing on this vacation?</label>
+              <select class="form-control" id="family">
+                  <option value="1">I'm going solo</option>
+                  <option value="2">I'm bringing my best friend or SO</option>
+                  <option value="3">I'm going with a group of friends</option>
+                  <option value="4">I'm bringing my family</option>
+                </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <div class="well">
+              <label>Where do you want to stay?</label>
+              <select class="form-control" id="lodging">
+                  <option value="1">Tent or trailer</option>
+                  <option value="2">Mountain Lodge</option>
+                  <option value="3">A Nice Hotel</option>
+                  <option value="4">Penthouse Suite</option>
+                </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <div class="well">
+              <label>How do you feel about crowds?</label>
+              <select class="form-control" id="crowds">
+                <option value="1">I hate crowds and want to be alone</option>
+                <option value="2">I don't mind them but would rather be around fewer people</option>
+                <option value="3">I don't care</option>
+                <option value="4">I like being around a lot of people</option>
+                </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <div class="well">
+              <label>Pick a landmark you'd like to visit</label>
+              <select class="form-control" id="landmark">
+                <option value="1">Grand Canyon</option>
+                <option value="2">Great Wall of China</option>
+                <option value="3">Ayers Rock</option>
+                <option value="4">Eiffel Tower</option>
+                </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <div class="well">
+              <label>How long do you want to be away?</label>
+              <select class="form-control" id="duration">
+                <option value="1">Only a few days</option>
+                <option value="2">About a week</option>
+                <option value="3">Between 1-3 weeks</option>
+                <option value="4">A month of more</option>
+                </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    <br>
