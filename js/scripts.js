@@ -60,7 +60,7 @@ $(document).ready(function() {
       $("#tokyo").show();
     }
     $("form").hide();
-    
+
     event.preventDefault();
 
   });
