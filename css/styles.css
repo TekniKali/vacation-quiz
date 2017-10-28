@@ -1,3 +1,15 @@
+#imgs {
+  text-align: center;
+}
+
+img {
+  border-radius: 5px;
+}
+
+#activities, #family, #lodging, #crowds, #landmark, #duration {
+  border-color: #42e8f4;
+}
+
 #switzerland, #tokyo, #tulum, #sedona {
   display: none;
 }
