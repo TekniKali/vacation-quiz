@@ -49,3 +49,18 @@ $(document).ready(function() {
     } else if (q4 == 4) {
       dest4 += 1;
     }
+
+    if (dest1 >= dest2 && dest1 >= dest3 && dest1 >= dest4) {
+      $("#switzerland").show();
+    } else if (dest2 >= dest1 && dest2 >= dest3 && dest2 >= dest4) {
+      $("#sedona").show();
+    } else if (dest3 >= dest1 && dest3 >= dest2 && dest3 >= dest4) {
+      $("#tulum").show();
+    } else if (dest4 >= dest1 && dest4 >= dest2 && dest4 >= dest3) {
+      $("#tokyo").show();
+    }
+
+    event.preventDefault();
+
+  });
+});
