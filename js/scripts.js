@@ -59,7 +59,8 @@ $(document).ready(function() {
     } else if (dest4 >= dest1 && dest4 >= dest2 && dest4 >= dest3) {
       $("#tokyo").show();
     }
-
+    $("form").hide();
+    
     event.preventDefault();
 
   });
