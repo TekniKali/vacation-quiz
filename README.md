@@ -10,7 +10,8 @@ Create a new directory call "vacation-quiz" on your desktop.
 Open the GitHub repository that I created for the portfolio project.
 Clone the repository, with the command "git clone [repository url]", into the local directory.
 Open code with the command "atom ."
-Here is a link to the gh-page:
+
+Here is a link to the gh-page: https://ilminka.github.io/vacation-quiz/
 
 **Known Bugs**
 There are no bugs present.

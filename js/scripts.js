@@ -72,6 +72,7 @@ $(document).ready(function() {
     var dest3 = 0;
     var dest4 = 0;
     $(".myClass").hide();
+    $("form#survey")[0].reset()
     $("form#survey").show();
 
 
