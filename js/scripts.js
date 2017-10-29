@@ -51,17 +51,29 @@ $(document).ready(function() {
     }
 
     if (dest1 >= dest2 && dest1 >= dest3 && dest1 >= dest4) {
-      $("#switzerland").show();
+      $("#switzerland").show().addClass('myClass');
     } else if (dest2 >= dest1 && dest2 >= dest3 && dest2 >= dest4) {
-      $("#sedona").show();
+      $("#sedona").show().addClass('myClass');
     } else if (dest3 >= dest1 && dest3 >= dest2 && dest3 >= dest4) {
-      $("#tulum").show();
+      $("#tulum").show().addClass('myClass');
     } else if (dest4 >= dest1 && dest4 >= dest2 && dest4 >= dest3) {
-      $("#tokyo").show();
+      $("#tokyo").show().addClass('myClass');
     }
     $("form").hide();
 
     event.preventDefault();
+
+  });
+
+  $(".return").click(function(event) {
+    // resetting form
+    var dest1 = 0;
+    var dest2 = 0;
+    var dest3 = 0;
+    var dest4 = 0;
+    $(".myClass").hide();
+    $("form#survey").show();
+
 
   });
 });
